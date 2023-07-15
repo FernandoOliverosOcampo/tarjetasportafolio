@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/registro_datos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de datos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <div class="imagen">
+                <img class="imagen__formulario" src="../imagenes/user_profile.jpg" alt="Imagen del formulario">
+            </div>
+            <div class="input-container">
+                <div class="input-wrapper">
+                  <input id="titulo" type="text" class="input-field" required>
+                  <label for="input1" class="input-label">Titulo</label>
+                </div>
+                <div class="input-wrapper">
+                  <input id="lenguajes" type="text" class="input-field" required>
+                  <label for="input2" class="input-label">Lenguaje</label>
+                </div>
+                <div class="input-wrapper">
+                  <input id="descripcion" type="text" class="input-field" required>
+                  <label for="input3" class="input-label">Descripción</label>
+                </div>
+                <div class="input-wrapper">
+                  <input id="imagenes" type="text" class="input-field" required>
+                  <label for="input4" class="input-label">Imagenes</label>
+                </div>
+                <div class="input-wrapper">
+                  <label for=""> URL GITHUB</label>
+                  <input id="urlgit" type="text" class="input-field">
+                </div>
+                <div class="input-wrapper">
+                  <label for=""> PAGINA</label>
+                  <input id="pagina" type="checkbox" class="input-field">
+                </div>
+                <div class="input-wrapper">
+                  <input id="url" type="text" class="input-field">
+                  <label for="input4" class="input-label">Imagenes</label>
+                </div>
+              </div>
+            <div class="botones">
+                <button id="btn_enviar">Enviar</button>
+                <button id="btn_volver">Volver</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script src="../js/vistajs/index.js" type="module"></script>
+
+
+
+    
+</body>
+
+</html>

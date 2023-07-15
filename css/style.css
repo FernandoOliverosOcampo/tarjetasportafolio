@@ -1,0 +1,94 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+*{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(8, 255, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    width: 70vh;
+    margin: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30vw;
+    margin: 20px;
+    background-color: rgb(39, 206, 206);
+    border-radius: 15px;
+    border: 1px solid rgb(182, 182, 182);
+    box-shadow: 0 0 0 #0f0f0f;
+}
+#imagen__login{
+    border-radius: 50%;
+    height: 20vh;
+    width: auto;
+    margin: 5px;
+}
+.logeo__inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+       
+   }
+.logeo__inicio input{
+    margin-top: 15px ;
+    height: 7vh;
+    width: 100%;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 10px;
+    
+}
+.logeo__inicio input:hover{
+    border-color: rgb(37, 37, 37);
+}
+.logeo__inicio input::placeholder{
+    font-size: 15px;
+    padding: 10px;
+}
+.logeo__inicio label{
+    margin-top: 15px ;
+    font-weight: bold;
+    text-align: center;
+}
+.botones__logeo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_ingresar,
+ .btn_registrar{
+    margin:20px;
+    height: 6.5vh;
+    width: 7.5vw;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid cornflowerblue;
+
+}
+.btn_ingresar:hover{
+    background-color: aliceblue;
+    
+}
+.btn_registrar:hover{
+    background-color: aliceblue;
+    
+}
+
